@@ -2,9 +2,9 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send({message: "Olá canal deploy!"})
+    res.send({message: "Hello World!"})
 })
 
 app.listen(8080, () => {
-    console.log("Olá canal deploy final apresentação")
+    console.log("Hello World! final")
 })
